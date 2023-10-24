@@ -5,7 +5,7 @@ if (!empty($_POST["btningresar"])) {
     } else {
         $usuario = $_POST["nombreUsuario"];
         $clave = $_POST["contraseña"];
-        $sql = $conexion->query("SELECT * FROM t_usuario WHERE nombreUsuario = '$usuario' AND contraseña = '$clave' ");
+        $sql = $conexion->query("SELECT * FROM usuario WHERE nombreUsuario = '$usuario' AND contraseña = '$clave' ");
         if ($datos = $sql->fetch_object()) {
             // Iniciar una sesión y guardar los datos del usuario
             session_start();
