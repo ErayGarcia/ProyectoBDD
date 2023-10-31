@@ -1,0 +1,62 @@
+body {
+    background-color: grey; /* Color de fondo para toda la página */
+}
+    /* Estilo para el fondo del formulario */
+.container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón "Guardar" */
+.btn-primary {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo para las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Alineación del formulario en el centro de la página */
+.container {
+    text-align: center;
+}
+
+/* Título del formulario */
+h1 {
+    color: #007bff;
+}
+
+/* Espaciado entre elementos */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Ancho máximo del formulario en pantallas grandes */
+@media (min-width: 992px) {
+    .container {
+        max-width: 500px;
+    }
+}
+@media screen and (min-width:992px){
+  .nav-item {
+  line-height:80px;
+  }
+}
